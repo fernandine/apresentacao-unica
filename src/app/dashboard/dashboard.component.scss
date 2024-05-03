@@ -1,0 +1,40 @@
+:host ::ng-deep .p-dialog .product-image {
+  width: 150px;
+  margin: 0 auto 2rem auto;
+  display: block;
+}
+::ng-deep .p-datepicker table td {
+  padding: 0.2rem !important;
+  background-color: rgb(203, 238, 233);
+}
+
+::ng-deep .p-datepicker table td > span {
+  width: 1.7rem;
+  height: 1.7rem;
+
+}
+
+::ng-deep .p-datepicker table {
+  font-size: 10pt;
+  margin: -0.143rem 0;
+}
+
+::ng-deep .p-datepicker .p-datepicker-header {
+  padding: 0.2rem;
+}
+
+
+:host ::ng-deep .p-calendar
+  .p-datepicker table td.p-datepicker-today>span,
+:host ::ng-deep .p-calendar .p-datepicker
+  table td.p-datepicker-today>span:hover {
+  background-color: rgb(203, 238, 233);
+  color: white;
+  font-weight: bold;
+}
+:host ::ng-deep .p-calendar .p-datepicker td.p-datepicker-current-month .p-datepicker-current-day {
+  background-color: green;
+  color: rgb(82, 28, 28);
+  font-weight: bold;
+}
+

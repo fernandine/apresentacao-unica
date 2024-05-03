@@ -1,0 +1,740 @@
+<div class="min-h-screen flex relative lg:static ">
+  <div id="app-sidebar"
+    class="surface-section h-full lg:h-auto hidden lg:block flex-shrink-0 absolute lg:static left-0 top-0 z-1 border-right-1 surface-border select-none"
+    style="width:280px">
+    <div class="flex flex-column h-full">
+      <div class="flex align-items-center px-5 flex-shrink-0" style="height:60px">
+        <img src="././../../assets/logo.jpeg" alt="Image" height="50">
+      </div>
+      <div class="overflow-y-auto">
+        <ul class="list-none p-3 m-0">
+          <li>
+            <div pRipple class="p-3 flex align-items-center justify-content-between text-600 cursor-pointer"
+              pStyleClass="@next" enterFromClass="hidden" enterActiveClass="slidedown" leaveToClass="hidden"
+              leaveActiveClass="slideup">
+              <span class="font-medium">Secretarias Municipais</span>
+              <i class="pi pi-chevron-down"></i>
+            </div>
+            <ul class="list-none p-0 m-0 overflow-hidden">
+              <li>
+                <a pRipple
+                  class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors">
+                  <i class="pi pi-home mr-2"></i>
+                  <span class="font-medium">Métricas</span>
+                </a>
+              </li>
+
+              <li>
+                <a pRipple
+                  class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors"
+                  pStyleClass="@next" enterFromClass="hidden" enterActiveClass="slidedown" leaveToClass="hidden"
+                  leaveActiveClass="slideup">
+                  <i class="pi pi-chart-line mr-2"></i>
+                  <span class="font-medium">Vigilância Epidemiológica</span>
+                  <i class="pi pi-chevron-down ml-auto"></i>
+                </a>
+                <ul
+                  class="list-none py-0 pl-3 pr-0 m-0 hidden overflow-y-hidden transition-all transition-duration-400 transition-ease-in-out">
+
+                  <li>
+                    <a pRipple
+                      class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors">
+                      <i class="pi pi-chart-line mr-2"></i>
+                      <span class="font-medium">Agente de Endemias</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a pRipple
+                      class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors">
+                      <i class="pi pi-chart-line mr-2"></i>
+                      <span class="font-medium">Índice de Pendência</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a pRipple
+                      class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors">
+                      <i class="pi pi-chart-line mr-2"></i>
+                      <span class="font-medium">Consumos</span>
+                    </a>
+                  </li>
+
+
+                  <li>
+                    <a pRipple
+                      class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors">
+                      <i class="pi pi-chart-line mr-2"></i>
+                      <span class="font-medium">Ordem de Serviços</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a pRipple
+                  class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors">
+                  <i class="pi pi-users mr-2"></i>
+                  <span class="font-medium">Notificações</span>
+                </a>
+              </li>
+
+              <li>
+                <a pRipple
+                  class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors">
+                  <i class="pi pi-calendar mr-2"></i>
+                  <span class="font-medium">Calendário Epidemiológica</span>
+                </a>
+              </li>
+              <li>
+                <a pRipple
+                  class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors">
+                  <i class="pi pi-cog mr-2"></i>
+                  <span class="font-medium">Configurações</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="list-none p-3 m-0">
+          <li>
+            <div pRipple class="p-3 flex align-items-center justify-content-between text-600 cursor-pointer"
+              pStyleClass="@next" enterFromClass="hidden" enterActiveClass="slidedown" leaveToClass="hidden"
+              leaveActiveClass="slideup">
+              <span class="font-medium">Zoonoses</span>
+              <i class="pi pi-chevron-down"></i>
+            </div>
+            <ul class="list-none p-0 m-0 overflow-hidden">
+              <li>
+                <a pRipple
+                  class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors">
+                  <i class="pi pi-folder mr-2"></i>
+                  <span class="font-medium">Animais</span>
+                </a>
+              </li>
+              <li>
+                <a pRipple
+                  class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors">
+                  <i class="pi pi-chart-bar mr-2"></i>
+                  <span class="font-medium">Pragas e Vetores</span>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="mt-auto">
+        <hr class="mb-3 mx-3 border-top-1 border-none surface-border" />
+        <a pRipple
+          class="m-3 flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors">
+
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="min-h-screen flex flex-column relative flex-auto">
+    <div
+      class="flex justify-content-between align-items-center px-5 surface-0 border-bottom-1 surface-border relative lg:static"
+      style="height:60px">
+      <div class="flex">
+        <a pRipple class="cursor-pointer block lg:hidden text-700 mr-3" pStyleClass="#app-sidebar"
+          enterFromClass="hidden" enterActiveClass="fadeinleft" leaveToClass="hidden" leaveActiveClass="fadeoutleft"
+          [hideOnOutsideClick]="true">
+          <i class="pi pi-bars text-4xl"></i>
+        </a>
+        <span class="p-input-icon-left">
+          <i class="pi pi-search"></i>
+          <input type="text" pInputText class="border-none w-10rem sm:w-20rem" placeholder="Buscar...">
+        </span>
+      </div>
+      <a pRipple class="cursor-pointer block lg:hidden text-700" pStyleClass="@next" enterFromClass="hidden"
+        enterActiveClass="fadein" leaveToClass="hidden" leaveActiveClass="fadeout" [hideOnOutsideClick]="true">
+        <i class="pi pi-ellipsis-v text-2xl"></i>
+      </a>
+      <ul
+        class="list-none p-0 m-0 hidden lg:flex lg:align-items-center select-none lg:flex-row
+              surface-section border-1 lg:border-none surface-border right-0 top-100 z-1 shadow-2 lg:shadow-none absolute lg:static">
+        <li>
+          <a pRipple class="flex p-3 lg:px-3 lg:py-2 align-items-center text-600 hover:text-900 hover:surface-100 font-medium border-round cursor-pointer
+                      transition-duration-150 transition-colors">
+            <i class="pi pi-inbox text-base lg:text-2xl mr-2 lg:mr-0"></i>
+            <span class="block lg:hidden font-medium"></span>
+          </a>
+        </li>
+        <li>
+          <a pRipple class="flex p-3 lg:px-3 lg:py-2 align-items-center text-600 hover:text-900 hover:surface-100 font-medium border-round cursor-pointer
+                      transition-duration-150 transition-colors">
+            <i class="pi pi-bell text-base lg:text-2xl mr-2 lg:mr-0" pBadge severity="danger"></i>
+            <span class="block lg:hidden font-medium"></span>
+          </a>
+        </li>
+        <li class="border-top-1 surface-border lg:border-top-none">
+          <a pRipple class="flex p-3 lg:px-3 lg:py-2 align-items-center hover:surface-100 font-medium border-round cursor-pointer
+                      transition-duration-150 transition-colors">
+
+            <div class="block lg:hidden">
+              <div class="text-900 font-medium"></div>
+              <span class="text-600 font-medium text-sm"></span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="flex flex-column flex-auto">
+      <div class="surface-section p-5">
+        <div class="flex align-items-start flex-column lg:flex-row lg:justify-content-between">
+          <div class="flex align-items-start flex-column md:flex-row">
+
+            <div>
+              <span class="ml-2 text-900 font-medium text-3xl">Wagner Coleta - Aministrador Municipal</span>
+              <i class="pi pi-star text-2xl ml-4 text-yellow-500"></i>
+              <div class="flex align-items-center flex-wrap text-sm">
+                <div class="mr-5 mt-3">
+                  <span class="font-medium text-500">Pacientes Notificados</span>
+                  <div class="text-700 mt-2">333</div>
+                </div>
+                <div class="mr-5 mt-3">
+                  <span class="font-medium text-500">Pacientes Descartados</span>
+                  <div class="text-700 mt-2">26</div>
+                </div>
+                <div class="mr-5 mt-3">
+                  <span class="font-medium text-500">Quadras Tratadas</span>
+                  <div class="text-700 mt-2">17</div>
+                </div>
+                <div class="mt-3">
+                  <span class="font-medium text-500">Ordens de Serviço</span>
+                  <div class="text-700 mt-2">130</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-3 lg:mt-0">
+
+            <p-calendar class="mr-4" [(ngModel)]="date" view="month" placeholder="Escolha o mês do relatório"
+              dateFormat="mm/yy" [readonlyInput]="true" />
+
+
+            <button pButton pRipple icon="pi pi-bookmark" class="p-button-rounded mr-2"></button>
+            <button pButton pRipple icon="pi pi-list" class="p-button-rounded p-button-help"></button>
+          </div>
+        </div>
+      </div>
+      <div class="p-5">
+        <div class="grid">
+          <div class="col-12 lg:col-6 xl:col-3">
+            <div class="surface-card shadow-2 p-3 border-1 border-50 border-round">
+              <div class="flex justify-content-between mb-3">
+                <div>
+                  <span class="block text-500 font-medium mb-3">Imóveis Sem Acesso</span>
+                  <div class="text-900 font-medium text-xl">152</div>
+                </div>
+                <div class="flex align-items-center justify-content-center bg-blue-100 border-round"
+                  style="width:2.5rem;height:2.5rem">
+                  <i class="pi pi-map-marker text-blue-500 text-xl"></i>
+                </div>
+              </div>
+              <span class="text-green-500 font-medium"></span>
+              <span class="text-500">Risco Baixo</span>
+            </div>
+          </div>
+          <div class="col-12 lg:col-6 xl:col-3">
+            <div class="surface-card shadow-2 p-3 border-1 border-50 border-round">
+              <div class="flex justify-content-between mb-3">
+                <div>
+                  <span class="block text-500 font-medium mb-3">Depósitos Identificados</span>
+                  <div class="text-900 font-medium text-xl">56</div>
+                </div>
+                <div class="flex align-items-center justify-content-center bg-orange-100 border-round"
+                  style="width:2.5rem;height:2.5rem">
+                  <i class="pi pi-map-marker text-orange-500 text-xl"></i>
+                </div>
+              </div>
+              <span class="text-green-500 font-medium mr-1">52%</span>
+              <span class="text-500">Risco Alto</span>
+            </div>
+          </div>
+          <div class="col-12 lg:col-6 xl:col-3">
+            <div class="surface-card shadow-2 p-3 border-1 border-50 border-round">
+              <div class="flex justify-content-between mb-3">
+                <div>
+                  <span class="block text-500 font-medium mb-3">Presença De Larva</span>
+                  <div class="text-900 font-medium text-xl">2841</div>
+                </div>
+                <div class="flex align-items-center justify-content-center bg-cyan-100 border-round"
+                  style="width:2.5rem;height:2.5rem">
+                  <i class="pi pi-map-marker text-cyan-500 text-xl"></i>
+                </div>
+              </div>
+              <span class="text-green-500 font-medium">520% </span>
+              <span class="text-500">Risco Baixo</span>
+            </div>
+          </div>
+          <div class="col-12 lg:col-6 xl:col-3">
+            <div class="surface-card shadow-2 p-3 border-1 border-50 border-round">
+              <div class="flex justify-content-between mb-3">
+                <div>
+                  <span class="block text-500 font-medium mb-3">Pacientes Positivos</span>
+                  <div class="text-900 font-medium text-xl">152</div>
+                </div>
+                <div class="flex align-items-center justify-content-center bg-purple-100 border-round"
+                  style="width:2.5rem;height:2.5rem">
+                  <i class="pi pi-map-marker text-purple-500 text-xl"></i>
+                </div>
+              </div>
+              <span class="text-green-500 font-medium">85% </span>
+              <span class="text-500">Risco Alto</span>
+            </div>
+          </div>
+
+          <div class="col-12 xl:col-6">
+            <div class="surface-card shadow-2 border-round p-4">
+              <div class="flex justify-content-between align-items-center mb-5">
+                <span class="text-xl text-900 font-medium">Cidadãos Entrevistados</span>
+                <div>
+                  <button pButton pRipple icon="pi pi-ellipsis-v" class="p-button-text p-button-plain p-button-rounded"
+                    (click)="cag.toggle($event)"></button>
+                  <p-menu #cag [popup]="true" [model]="items" appendTo="body"></p-menu>
+                </div>
+              </div>
+              <ul class="list-none p-0 m-0">
+                <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
+                  <div class="flex">
+
+                    <div>
+                      <span class="block text-900 font-medium mb-1">Jean fernandine</span>
+                      <div class="text-600 font-bold">Administrador Municipal</div>
+                    </div>
+                  </div>
+                  <div class="mt-2 md:mt-0 flex flex-nowrap">
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi pi-user"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-search"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-check"></button>
+                  </div>
+                </li>
+                <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
+                  <div class="flex">
+
+                    <div>
+                      <span class="block text-900 font-medium mb-1">Guilherme Veríssimo</span>
+                      <div class="text-600 font-bold">Agente da UBS</div>
+                    </div>
+                  </div>
+                  <div class="mt-2 md:mt-0 flex flex-nowrap">
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi pi-user"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-search"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-check"></button>
+                  </div>
+                </li>
+                <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
+                  <div class="flex">
+
+                    <div>
+                      <span class="block text-900 font-medium mb-1">Rubens Rodrigues</span>
+                      <div class="text-600 font-bold">Administrador Estadual</div>
+                    </div>
+                  </div>
+                  <div class="mt-2 md:mt-0 flex flex-nowrap">
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi pi-user"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-search"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-check"></button>
+                  </div>
+                </li>
+                <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
+                  <div class="flex">
+
+                    <div>
+                      <span class="block text-900 font-medium mb-1">Maria Ramos</span>
+                      <div class="text-600 font-bold">Agente de Saúde</div>
+                    </div>
+                  </div>
+                  <div class="mt-2 md:mt-0 flex flex-nowrap">
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi pi-user"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-search"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-check"></button>
+                  </div>
+                </li>
+                <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
+                  <div class="flex">
+
+                    <div>
+                      <span class="block text-900 font-medium mb-1">Joao Marcelino</span>
+                      <div class="text-600 font-bold">Administrador da Zoonoses</div>
+                    </div>
+                  </div>
+                  <div class="mt-2 md:mt-0 flex flex-nowrap">
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi pi-user"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-search"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-check"></button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="col-12 xl:col-6">
+            <div class="surface-card shadow-2 border-round p-4">
+              <div class="flex justify-content-between align-items-center mb-5">
+                <span class="text-xl text-900 font-medium">Usuários Cadastrados</span>
+                <div>
+                  <button pButton pRipple icon="pi pi-ellipsis-v" class="p-button-text p-button-plain p-button-rounded"
+                    (click)="cag.toggle($event)"></button>
+                  <p-menu #cag [popup]="true" [model]="items" appendTo="body"></p-menu>
+                </div>
+              </div>
+              <ul class="list-none p-0 m-0">
+                <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
+                  <div class="flex">
+
+                    <div>
+                      <span class="block text-900 font-medium mb-1">Jean fernandine</span>
+                      <div class="text-600 font-bold">Administrador Municipal</div>
+                    </div>
+                  </div>
+                  <div class="mt-2 md:mt-0 flex flex-nowrap">
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi pi-user"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-search"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-check"></button>
+                  </div>
+                </li>
+                <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
+                  <div class="flex">
+
+                    <div>
+                      <span class="block text-900 font-medium mb-1">Guilherme Veríssimo</span>
+                      <div class="text-600 font-bold">Agente da UBS</div>
+                    </div>
+                  </div>
+                  <div class="mt-2 md:mt-0 flex flex-nowrap">
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi pi-user"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-search"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-check"></button>
+                  </div>
+                </li>
+                <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
+                  <div class="flex">
+
+                    <div>
+                      <span class="block text-900 font-medium mb-1">Rubens Rodrigues</span>
+                      <div class="text-600 font-bold">Administrador Estadual</div>
+                    </div>
+                  </div>
+                  <div class="mt-2 md:mt-0 flex flex-nowrap">
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi pi-user"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-search"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-check"></button>
+                  </div>
+                </li>
+                <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
+                  <div class="flex">
+
+                    <div>
+                      <span class="block text-900 font-medium mb-1">Maria Ramos</span>
+                      <div class="text-600 font-bold">Agente de Saúde</div>
+                    </div>
+                  </div>
+                  <div class="mt-2 md:mt-0 flex flex-nowrap">
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi pi-user"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-search"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-check"></button>
+                  </div>
+                </li>
+                <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
+                  <div class="flex">
+
+                    <div>
+                      <span class="block text-900 font-medium mb-1">Joao Marcelino</span>
+                      <div class="text-600 font-bold">Administrador da Zoonoses</div>
+                    </div>
+                  </div>
+                  <div class="mt-2 md:mt-0 flex flex-nowrap">
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi pi-user"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-search"></button>
+                    <button pButton pRipple class="p-button-text p-button-plain p-button-rounded mr-1"
+                      icon="pi pi-check"></button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 lg:col-6">
+            <div class="surface-card shadow-2 border-round p-4">
+              <div class="flex align-items-center justify-content-between mb-3">
+                <div class="text-900 font-medium text-xl">Gráfico de Larvas Identificadas</div>
+
+              </div>
+              <img src="assets/chart-line.svg" alt="Image" class="w-full">
+            </div>
+          </div>
+          <div class="col-12 lg:col-6">
+            <div class="surface-card shadow-2 border-round p-4">
+              <div class="flex align-items-center justify-content-between mb-3">
+                <div class="text-900 font-medium text-xl">Depósitos Eliminados</div>
+
+              </div>
+              <img src="assets/chart-bar.svg" alt="Image" class="w-full">
+            </div>
+          </div>
+
+
+
+
+
+          <div class="mt-7 card">
+            <p-toast></p-toast>
+            <p-toolbar styleClass="mb-2 gap-2">
+              <ng-template pTemplate="left">
+                <button pButton pRipple label="Remover" icon="pi pi-trash mr-2" class="p-button-danger"></button>
+              </ng-template>
+
+              <ng-template pTemplate="right">
+                <button pButton pRipple label="Exportar" icon="pi pi-upload mr-2" class="p-button-help"></button>
+              </ng-template>
+            </p-toolbar>
+
+            <p-table #dt [value]="products" [rows]="10" [paginator]="true"
+              [globalFilterFields]="['name', 'country.name', 'representative.name', 'status']"
+              [tableStyle]="{ 'min-width': '75rem' }" [(selection)]="selectedProducts" [rowHover]="true" dataKey="id"
+              currentPageReportTemplate="{first} até {last} de {totalRecords} páginas" [showCurrentPageReport]="true">
+              <ng-template pTemplate="caption">
+                <div class="flex align-items-center justify-content-between">
+                  <h5 class="m-0">Porcentagem de Depósitos Inspecionados</h5>
+                  <span class="p-input-icon-left">
+                    <i class="pi pi-search"></i>
+                    <input pInputText type="text" placeholder="Procurar..." />
+                  </span>
+                </div>
+              </ng-template>
+              <ng-template pTemplate="header">
+                <tr>
+                  <th style="width: 4rem">
+                    <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+                  </th>
+                  <th pSortableColumn="name">Zona <p-sortIcon field="name"></p-sortIcon></th>
+                  <th>A1</th>
+                  <th>A2</th>
+                  <th>B</th>
+                  <th>C</th>
+                  <th>D1</th>
+                  <th>D2</th>
+                  <th>E</th>
+                  <th>Outros</th>
+
+                  <th>TISA</th>
+                  <th>TVZ</th>
+                  <th>IFP</th>
+                  <th></th>
+                </tr>
+              </ng-template>
+              <ng-template pTemplate="body" let-product>
+                <tr>
+                  <td>
+                    <p-tableCheckbox [value]="product"></p-tableCheckbox>
+                  </td>
+                  <td>{{ product.name }}</td>
+                  <td>{{ product.name }}</td>
+                  <td>{{ product.price }}</td>
+                  <td>{{ product.category }}</td>
+                  <td>{{ product.price }}</td>
+                  <td>{{ product.name }}</td>
+                  <td>{{ product.name }}</td>
+                  <td>{{ product.price }}</td>
+                  <td>{{ product.category }}</td>
+                  <td>{{ product.price }}</td>
+                  <td>{{ product.price }}</td>
+                  <td>{{ product.category }}</td>
+
+                  <td>
+                    <button pButton pRipple icon="pi pi-pencil" class="p-button-rounded p-button-success mr-2"
+                      (click)="editProduct(product)"></button>
+                    <button pButton pRipple icon="pi pi-trash" class="p-button-rounded p-button-warning"
+                      (click)="deleteProduct(product)"></button>
+                  </td>
+                </tr>
+              </ng-template>
+              <ng-template pTemplate="summary">
+                <div class="flex align-items-center justify-content-between">Total de {{ products ? products.length : 0
+                  }} zonas.</div>
+              </ng-template>
+            </p-table>
+          </div>
+          <p-dialog [(visible)]="productDialog" [style]="{ width: '450px' }" header="Detalhes do gráfico" [modal]="true"
+            styleClass="p-fluid">
+            <ng-template pTemplate="content">
+              <img [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + product.image"
+                [alt]="product.image" class="block m-auto pb-3" *ngIf="product.image" />
+              <div class="field">
+                <label for="name">Zona</label>
+                <input type="text" pInputText id="name" [(ngModel)]="product.name" required autofocus />
+                <small class="p-error" *ngIf="submitted && !product.name">Name is required.</small>
+              </div>
+              <div class="field">
+                <label for="description">Descrição</label>
+                <textarea id="description" pInputTextarea [(ngModel)]="product.description" required rows="3"
+                  cols="20"></textarea>
+              </div>
+
+              <div class="field">
+                <label for="inventoryStatus">Risco</label>
+                <p-dropdown [(ngModel)]="product.inventoryStatus" inputId="inventoryStatus" [options]="statuses">
+                  <ng-template pTemplate="selectedItem">
+                    <p-tag [value]="product.inventoryStatus"></p-tag>
+                  </ng-template>
+                  <ng-template let-option pTemplate="item">
+                    <p-tag [value]="option.label"></p-tag>
+                  </ng-template>
+                </p-dropdown>
+              </div>
+
+              <div class="field">
+                <label class="mb-3">Índice de Infestação</label>
+
+              </div>
+
+
+              <div class="formgrid grid">
+                <div class="field col">
+                  <label for="price">TCPL</label>
+                  <p-inputNumber id="price" [(ngModel)]="product.price"></p-inputNumber>
+                </div>
+                <div class="field col">
+                  <label for="quantity">TISA</label>
+                  <p-inputNumber id="quantity" [(ngModel)]="product.quantity"></p-inputNumber>
+                </div>
+              </div>
+            </ng-template>
+
+            <ng-template pTemplate="footer">
+              <button pButton pRipple label="Cancel" icon="pi pi-times" class="p-button-text"
+                (click)="hideDialog()"></button>
+              <button pButton pRipple label="Save" icon="pi pi-check" class="p-button-text"
+                (click)="saveProduct()"></button>
+            </ng-template>
+          </p-dialog>
+
+          <p-confirmDialog [style]="{ width: '450px' }"></p-confirmDialog>
+
+          <div class="mt-5 col-12 lg:col-6">
+            <div class="surface-card shadow-2 border-round p-4">
+              <div class="flex align-items-center justify-content-between mb-3">
+                <div class="text-900 font-medium text-xl">Notificação Positiva por Bairro</div>
+              </div>
+              <div class="card">
+                <p-table [value]="example" [tableStyle]="{ 'min-width': '50rem' }">
+                  <ng-template pTemplate="header">
+                    <tr>
+                      <th>Bairro</th>
+                      <th>Arbovirose</th>
+                      <th>Qtd de contaminados</th>
+                    </tr>
+                  </ng-template>
+                  <ng-template pTemplate="body" let-example>
+                    <tr>
+                      <td>São Pedro da Aldeia</td>
+                      <td>Dengue</td>
+                      <td>65</td>
+                    </tr>
+                  </ng-template>
+                </p-table>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5 col-12 lg:col-6">
+            <div class="surface-card shadow-2 border-round p-4">
+              <div class="flex align-items-center justify-content-between mb-3">
+                <div class="text-900 font-medium text-xl">Quantitativo De Larvas Coletadas</div>
+              </div>
+              <div class="card">
+                <p-table [value]="example" [tableStyle]="{ 'min-width': '50rem' }">
+                  <ng-template pTemplate="header">
+                    <tr>
+                      <th>Depósito</th>
+                      <th>Larvas Coletadas</th>
+
+                    </tr>
+                  </ng-template>
+                  <ng-template pTemplate="body" let-example>
+                    <tr>
+                      <td>A1</td>
+                      <td>23</td>
+
+                    </tr>
+                  </ng-template>
+                </p-table>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5 col-12 lg:col-12">
+            <div class="surface-card shadow-2 border-round p-4">
+              <div class="flex align-items-center justify-content-between mb-3">
+                <div class="text-900 font-medium text-xl">Notificações da Cidade</div>
+              </div>
+              <div class="card">
+                <p-table [value]="example" [tableStyle]="{ 'min-width': '50rem' }">
+                  <ng-template pTemplate="header">
+                    <tr>
+                      <th style="width: 14rem;">UBS</th>
+                      <th>Notificados</th>
+                      <th>Casos Positivos</th>
+                      <th>Casos Importados</th>
+                      <th>Em Investigação</th>
+                      <th>Recusados</th>
+                      <th>Internados</th>
+                      <th>Óbitos</th>
+                      <th>Óbitos em Investigação</th>
+                    </tr>
+                  </ng-template>
+                  <ng-template pTemplate="body" let-example>
+                    <tr>
+                      <td>UBS 1</td>
+                      <td>23</td>
+                      <td>12</td>
+                      <td>23</td>
+                      <td>2</td>
+                      <td>27</td>
+                      <td>5</td>
+                      <td>6</td>
+                      <td>7</td>
+                    </tr>
+                  </ng-template>
+                </p-table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
